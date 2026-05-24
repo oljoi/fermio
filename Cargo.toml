@@ -1,14 +1,14 @@
 [package]
-name = "nuclei"
-version = "0.4.3"
-authors = ["Mahmut Bulut <vertexclique@gmail.com>"]
+name = "fermio"
+version = "0.1.0"
+authors = [ "oljoi", "Mahmut Bulut <vertexclique@gmail.com>"]
 edition = "2021"
 description = "Proactive IO & runtime system"
 keywords = ["io", "async", "uring", "iouring", "proactor"]
 categories = ["concurrency", "asynchronous"]
-homepage = "https://github.com/vertexclique/nuclei"
-repository = "https://github.com/vertexclique/nuclei"
-documentation = "https://docs.rs/nuclei"
+homepage = "https://github.com/oljoi/fermio"
+repository = "https://github.com/oljoi/fermio"
+documentation = "https://docs.rs/fermio"
 license = "Apache-2.0/MIT"
 readme = "README.md"
 exclude = [
