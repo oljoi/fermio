@@ -1,41 +1,5 @@
-<h1 align="center">
-    <img src="https://github.com/vertexclique/nuclei/raw/master/img/nuclei.gif"/>
-</h1>
-<div align="center">
- <strong>
-   Nuclei: Proactive IO & Runtime system
- </strong>
-<hr>
-</div>
-
-<div align="center">
-    <!-- CI builds -->
-    <a href="https://github.com/vertexclique/nuclei/actions">
-    <img alt="Build Status" src="https://github.com/vertexclique/nuclei/workflows/CI/badge.svg" />
-    </a>
-    <!-- Crates version -->
-    <a href="https://crates.io/crates/nuclei">
-    <img alt="Crates.io" src="https://img.shields.io/crates/v/nuclei.svg?style=popout-square">
-    </a>
-    <!-- License -->
-    <a href="https://github.com/vertexclique/nuclei/blob/master/LICENSE">
-    <img alt="Crates.io" src="https://img.shields.io/crates/l/nuclei.svg?style=popout-square">
-    </a>
-    <!-- Downloads -->
-    <a href="https://crates.io/crates/nuclei">
-    <img src="https://img.shields.io/crates/d/nuclei.svg?style=flat-square"
-      alt="Download" />
-    </a>
-    <!-- docs.rs docs -->
-    <a href="https://docs.rs/nuclei">
-    <img src="https://img.shields.io/badge/docs-latest-blue.svg?style=flat-square"
-      alt="docs.rs docs" />
-    </a>
-    <!-- Discord -->
-    <a href="https://discord.gg/DqRqtRT">
-    <img src="https://img.shields.io/discord/628383521450360842.svg?logo=discord" />
-    </a>
-</div>
+# fermio: Proactive IO & Runtime system
+fork of [nuclei](https://github.com/vertexcluque/nuclei)
 
 Nuclei is a [proactor-based](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.49.9183) IO system which is runtime agnostic and can work with any runtime.
 The proactor system's design principles are matching [Boost Asio](https://www.boost.org/doc/libs/1_47_0/doc/html/boost_asio/overview/core/async.html).
@@ -84,19 +48,6 @@ Executor is using `async-global-executor`. Available features are:
 
 #### License
 
-<sup>
-Licensed under either of <a href="LICENSE-APACHE">Apache License, Version
-2.0</a> or <a href="LICENSE-MIT">MIT license</a> at your option.
-</sup>
+Licensed under either of [Apache License, Version 2.0](LICENSE-APACHE) or [MIT license](LICENSE-MIT) at your option.
 
-<br>
-
-<sub>
-Unless you explicitly state otherwise, any contribution intentionally submitted
-for inclusion in this crate by you, as defined in the Apache-2.0 license, shall
-be dual licensed as above, without any additional terms or conditions.
-</sub>
-
-##### Credits
-
-<sub><sup>Gif is from the documentary called "Particle Fever".<sup><sub>
+Unless you explicitly state otherwise, any contribution intentionally submitted for inclusion in this crate by you, as defined in the Apache-2.0 license, shall be dual licensed as above, without any additional terms or conditions.
